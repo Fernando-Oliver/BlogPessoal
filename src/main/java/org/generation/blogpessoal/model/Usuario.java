@@ -104,6 +104,14 @@ public class Usuario {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
+
+	public List<Postagem> getPostagens() {
+		return postagens;
+	}
+
+	public void setPostagens(List<Postagem> postagens) {
+		this.postagens = postagens;
+	}
 	
 	
 }
